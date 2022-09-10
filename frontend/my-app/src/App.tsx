@@ -4,7 +4,7 @@ import './App.css';
 import IconButton from '@mui/material/IconButton';
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
-import { Box, Grid, Paper } from "@mui/material";
+import { Box, Grid, Paper, Button } from "@mui/material";
 
 function App() {
   const [country, setCountry] = useState("");
@@ -86,7 +86,13 @@ function App() {
           </Paper>
         </div>
       )}
-    </div>
+      <div id="countryLinks">
+        <Button variant="contained"><a href="https://www.usnews.com/news/best-countries/rankings">Best Countries in the World</a></Button>
+        <Button variant="contained"><a href="https://facts.net/country-facts/">100 Country Facts</a></Button>
+        <Button variant="contained"><a href="https://www.farandwide.com/s/most-fun-countries-40b97d2a3fb54b67">Most fun Countries</a></Button>
+        <Button variant="contained"><a href="https://worldpopulationreview.com/country-rankings/richest-countries-in-the-world">Richest Countries</a></Button>
+      </div>
+    </div >
   )
 
   function search() {

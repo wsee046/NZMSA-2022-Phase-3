@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#countryLinks {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#countryLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+#countryLinks Button {
+  margin-left: 20px;
+  margin-right: 20px;
 }
