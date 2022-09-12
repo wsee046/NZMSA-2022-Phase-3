@@ -15,9 +15,7 @@ jobs:
     defaults:
       run:
         working-directory: "./HotelBookingApi"
-  build:
-    runs-on: windows-latest
-
+    
     steps:
       - uses: actions/checkout@v2
 
@@ -38,25 +36,3 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
-
-  deploy:
-    runs-on: windows-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v2
-        with:
-          name: .net-app
-
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: 'HotelBookingApiBackend'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B521B0D67C714597AFAE85D17FC13B2C }}
-          package: .
