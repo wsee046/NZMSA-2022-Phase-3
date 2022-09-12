@@ -3,22 +3,15 @@ using HotelBookingApi.Domain.Models;
 using HotelBookingApi.Domain.DTO;
 using HotelBookingApi.Infrastructure.Persistence.Contexts;
 using HotelBookingApi.Controllers;
-using Moq;
 using NSubstitute;
-using System.Data.Entity.Infrastructure;
-using System.Reflection.Metadata;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using SQLitePCL;
+using FluentAssertions;
 
 namespace HotelBookingApi.UnitTests;
 
 public class HotelBookingControllerTest
 {
     private List<HotelBooking> hotelBookings;
-
-    private HotelBooking _hotelBookingToUpdate;
 
     private HotelBookingController _hotelBookingController;
 
@@ -68,9 +61,9 @@ public class HotelBookingControllerTest
         _hotelBookingController = Substitute.For<HotelBookingController>(context);
 
         var result = _hotelBookingController.GetHotelBooking(1);
-        Assert.That(result.Result.Value.Id, Is.EqualTo(1));
-        Assert.That(result.Result.Value.RoomNumber, Is.EqualTo(100));
-        Assert.That(result.Result.Value.ClientName, Is.EqualTo("Client 1"));
+        result.Result.Value.Id.Should().Be(1);
+        result.Result.Value.RoomNumber.Should().Be(100);
+        result.Result.Value.ClientName.Should().Be("Client 1");
     }
 
     [Test]
@@ -94,9 +87,9 @@ public class HotelBookingControllerTest
         _hotelBookingController.CreateHotelBooking(hotelBookingToPost);
 
         var result = _hotelBookingController.GetHotelBooking(5);
-        Assert.That(result.Result.Value.Id, Is.EqualTo(5));
-        Assert.That(result.Result.Value.RoomNumber, Is.EqualTo(105));
-        Assert.That(result.Result.Value.ClientName, Is.EqualTo("Client 5"));
+        result.Result.Value.Id.Should().Be(5);
+        result.Result.Value.RoomNumber.Should().Be(105);
+        result.Result.Value.ClientName.Should().Be("Client 5");
 
     }
 
@@ -137,7 +130,7 @@ public class HotelBookingControllerTest
         };
 
         List<HotelBooking> newResult = (List<HotelBooking>)_hotelBookingController.GetAllHotelBookings().Result.Value;
-        Assert.That(newResult, Is.EqualTo(newHotelBookings));
+        newResult.Should().BeEquivalentTo(newHotelBookings);
     }
 
     [Test]
@@ -177,7 +170,7 @@ public class HotelBookingControllerTest
         };
 
         List<HotelBooking> newResult = (List<HotelBooking>)_hotelBookingController.GetAllHotelBookings().Result.Value;
-        Assert.That(newResult, Is.EqualTo(newHotelBookings));
+        newResult.Should().BeEquivalentTo(newHotelBookings);
     }
 
     [Test]
@@ -192,8 +185,7 @@ public class HotelBookingControllerTest
         _hotelBookingController = Substitute.For<HotelBookingController>(context);
 
         List<HotelBooking> allHotelBookings = (List<HotelBooking>)_hotelBookingController.GetAllHotelBookings().Result.Value;
-
-        Assert.That(allHotelBookings, Is.EqualTo(hotelBookings));
+        allHotelBookings.Should().BeEquivalentTo(hotelBookings);
     }
 
     [Test]
@@ -218,7 +210,7 @@ public class HotelBookingControllerTest
         var result2 = _hotelBookingController.GetHotelBooking(3);
 
         HotelBooking updatedBooking = result2.Result.Value;
-        Assert.That(updatedBooking, Is.EqualTo(hotelBookingToPut));
+        updatedBooking.Should().BeEquivalentTo(hotelBookingToPut);
         
     }
 }
