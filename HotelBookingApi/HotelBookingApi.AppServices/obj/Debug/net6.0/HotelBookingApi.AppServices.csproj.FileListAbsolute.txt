@@ -1,0 +1,12 @@
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\bin\Debug\net6.0\HotelBookingApi.AppServices.deps.json
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\bin\Debug\net6.0\HotelBookingApi.AppServices.dll
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\bin\Debug\net6.0\HotelBookingApi.AppServices.pdb
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.csproj.AssemblyReference.cache
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.AssemblyInfoInputs.cache
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.AssemblyInfo.cs
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.csproj.CoreCompileInputs.cache
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.dll
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\refint\HotelBookingApi.AppServices.dll
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\HotelBookingApi.AppServices.pdb
+C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.AppServices\obj\Debug\net6.0\ref\HotelBookingApi.AppServices.dll
