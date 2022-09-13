@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent, Paper, Grid, Box } from "@mui/material";
+import { Card, CardContent, Grid, Box } from "@mui/material";
 import { getLanguages } from "../utils/countryInfo"
 
 interface CountryCardProps {

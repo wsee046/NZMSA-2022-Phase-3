@@ -4,7 +4,7 @@ import './App.css';
 import IconButton from '@mui/material/IconButton';
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
-import { Box, Grid, Paper, Button, styled } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import CountryCard from './components/CountryCard';
 
 function App() {
