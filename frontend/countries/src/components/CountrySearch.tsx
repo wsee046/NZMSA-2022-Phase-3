@@ -36,13 +36,15 @@ const CountrySearch: React.FC = () => {
                     <SearchIcon style={{ fill: "blue" }} />
                 </IconButton>
             </div>
+
             <div
                 style={{
                     maxWidth: "520px",
                     margin: "0 auto",
                     padding: "20px 10px 20px 10px",
                 }}>
-                <CountryCard countryInfo={countryInfo} />
+                <h3>Showing information for: {country}</h3>
+                <CountryCard data-testid="country-card-element" countryInfo={countryInfo} />
             </div>
         </div >
     );

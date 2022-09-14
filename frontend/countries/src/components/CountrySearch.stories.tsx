@@ -1,10 +1,11 @@
 import React from 'react';
 
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { screen, userEvent } from '@storybook/testing-library';
+import { screen, within, userEvent } from '@storybook/testing-library';
 import CountrySearch from './CountrySearch';
-import SearchIcon from "@mui/icons-material/Search";
-import IconButton from '@mui/material/IconButton';
+import CountryCard from './CountryCard';
+
+import { expect } from '@storybook/jest';
 
 export default {
     /* 👇 The title prop is optional.
@@ -13,6 +14,7 @@ export default {
     */
     title: 'CountrySearch',
     component: CountrySearch,
+    subcomponents: { CountryCard },
     parameters: {
         actions: {
             handles: ['click'],
@@ -24,30 +26,37 @@ const Template: ComponentStory<typeof CountrySearch> = (args) => <CountrySearch 
 
 export const NewZealand = Template.bind({});
 
-NewZealand.play = async () => {
-    const emailInput = screen.getByLabelText('Enter a country', {
+NewZealand.play = async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const countryInput = screen.getByLabelText('Enter a country', {
         selector: 'input',
     });
 
-    await userEvent.type(emailInput, 'New Zealand', {
+    await userEvent.type(countryInput, 'New Zealand', {
         delay: 100,
     });
 
     const searchButton = screen.getByRole('button');
     await userEvent.click(searchButton)
+
+    await expect(
+        canvas.getByText("Showing information for: New Zealand")
+    ).toBeInTheDocument();
 };
 
 export const America = Template.bind({});
 
-America.play = async () => {
-    const emailInput = screen.getByLabelText('Enter a country', {
+America.play = async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const countryInput = screen.getByLabelText('Enter a country', {
         selector: 'input',
     });
 
-    await userEvent.type(emailInput, 'US', {
-        delay: 200,
-    });
+    await userEvent.type(countryInput, 'US');
 
     const searchButton = screen.getByRole('button');
     await userEvent.click(searchButton)
+    await expect(
+        canvas.getByText("Showing information for: US")
+    ).toBeInTheDocument();
 };
