@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Front-end Phase 3 - Countries API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple typescript and React web application. This web app uses the ReacJS framework and communicates to an RESTful API about countries : https://restcountries.com/.
 
-## Available Scripts
+## Advanced Features List
 
-In the project directory, you can run:
+- [x] UI Scalability with window size
+- [x] Mobile first development (using media query breakpoints, etc)
+- [x] Storybook w/ both actions and interactions (play)
+- [ ] Progressive Web App (PWA) functionality w/ clear use of the service worker
+- [x] API connection to your own API that is cloud hosted
+- [x] Comprehensive unit testing
+- [ ] OAuth2 with PKCE login w/ at least ONE third party provider
+- [ ] Clear usage of Websockets
+- [ ] At least one fluid animation
+- [ ] Redux state management
+- [ ] Demonstration of complex FE logic
 
-### `npm start`
+## UI Scalability with window size
+The layout of the web app changes as the window size changes, from having multiple columns of the button links to having fewer columns when the window size is smaller.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Mobile first development (using media query breakpoints, etc)
+Components are styled for mobile first and uses breakpoints to adjust style at certain breakpoints.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Storybook w/ both actions and interactions (play)
+Storybook was used to highlight the user interaction when searching for a particular country.
 
-### `npm test`
+## API Connection to your own API that is cloud hosted
+The web app is deployed to Vercel: https://nzmsa-2022-phase-3.vercel.app/.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Comprehensive unit testing
+Unit testing of the components of the web app was performed through Storybook interactions and snapshot testing.
