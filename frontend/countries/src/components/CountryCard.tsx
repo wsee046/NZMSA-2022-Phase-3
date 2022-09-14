@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent, Grid, Box } from "@mui/material";
-import { getLanguages } from "../utils/countryInfo"
+import { getLanguages } from "../utils/countryInfo";
+import './CountryCard.css'
 
 interface CountryCardProps {
     countryInfo: any;
@@ -10,7 +11,7 @@ const CountryCard: React.FC<CountryCardProps> = (props: CountryCardProps) => {
     const { countryInfo } = props;
 
     return (
-        <Card >
+        <Card>
             <CardContent
                 sx={{
                     height: "360px",
