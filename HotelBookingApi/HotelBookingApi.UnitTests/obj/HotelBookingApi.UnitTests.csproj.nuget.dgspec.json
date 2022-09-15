@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj": {}
+    "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
+    "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj",
         "projectName": "HotelBookingApi.Domain",
-        "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj",
-        "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\obj\\",
+        "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -78,24 +76,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
+    "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj",
         "projectName": "HotelBookingApi.Infrastructure",
-        "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,15 +102,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj"
+              "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj"
               }
             }
           }
@@ -148,8 +145,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -158,24 +154,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj": {
+    "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj",
         "projectName": "HotelBookingApi.UnitTests",
-        "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\HotelBookingApi.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,21 +180,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj"
+              "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Domain\\HotelBookingApi.Domain.csproj"
               },
-              "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj"
+              "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj"
               },
-              "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj": {
-                "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj"
+              "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj": {
+                "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj"
               }
             }
           }
@@ -272,8 +267,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -282,24 +276,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj": {
+    "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
+        "projectUniqueName": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
         "projectName": "HotelBookingApi",
-        "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
-        "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\obj\\",
+        "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
+        "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -308,15 +302,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jorda\\OneDrive - The University of Auckland\\Desktop\\Personal\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj"
+              "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi.Infrastructure\\HotelBookingApi.Infrastructure.csproj"
               }
             }
           }
@@ -370,8 +363,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -383,7 +375,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

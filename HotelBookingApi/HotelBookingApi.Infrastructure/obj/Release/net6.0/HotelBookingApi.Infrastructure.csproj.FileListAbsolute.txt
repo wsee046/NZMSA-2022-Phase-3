@@ -1,0 +1,17 @@
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Infrastructure.deps.json
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Infrastructure.runtimeconfig.json
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Infrastructure.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Infrastructure.pdb
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Domain.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\bin\Release\net6.0\HotelBookingApi.Domain.pdb
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.AssemblyInfo.cs
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.csproj.CopyComplete
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\refint\HotelBookingApi.Infrastructure.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.pdb
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\HotelBookingApi.Infrastructure.genruntimeconfig.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Infrastructure\obj\Release\net6.0\ref\HotelBookingApi.Infrastructure.dll

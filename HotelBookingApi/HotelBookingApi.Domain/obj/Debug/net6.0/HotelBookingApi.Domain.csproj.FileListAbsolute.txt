@@ -12,3 +12,17 @@ C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-
 C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\ref\HotelBookingApi.Domain.dll
 C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\bin\Debug\net6.0\HotelBookingApi.Domain.runtimeconfig.json
 C:\Users\jorda\OneDrive - The University of Auckland\Desktop\Personal\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.genruntimeconfig.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\bin\Debug\net6.0\HotelBookingApi.Domain.deps.json
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\bin\Debug\net6.0\HotelBookingApi.Domain.runtimeconfig.json
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\bin\Debug\net6.0\HotelBookingApi.Domain.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\bin\Debug\net6.0\HotelBookingApi.Domain.pdb
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.csproj.AssemblyReference.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.AssemblyInfoInputs.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.AssemblyInfo.cs
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\refint\HotelBookingApi.Domain.dll
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.pdb
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\HotelBookingApi.Domain.genruntimeconfig.cache
+C:\Users\GGPC\Documents\MSA\NZMSA-2022-Phase-3\HotelBookingApi\HotelBookingApi.Domain\obj\Debug\net6.0\ref\HotelBookingApi.Domain.dll

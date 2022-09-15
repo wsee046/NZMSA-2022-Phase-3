@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "wNfDi1EgB9bHseUUhrgcIowC56hillb4XSAFgJ55VXA=",
+  "Source": "HotelBookingApi",
+  "BasePath": "_content/HotelBookingApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HotelBookingApi\\wwwroot",
+      "Source": "HotelBookingApi",
+      "ContentRoot": "C:\\Users\\GGPC\\Documents\\MSA\\NZMSA-2022-Phase-3\\HotelBookingApi\\HotelBookingApi\\wwwroot\\",
+      "BasePath": "_content/HotelBookingApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
