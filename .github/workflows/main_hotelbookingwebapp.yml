@@ -28,6 +28,8 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
         
+      - name: Run Tests
+        run: dotnet test
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
@@ -37,23 +39,10 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
-
-  test:
-    runs-on: windows-latest
-    needs: build
-      
-    steps:
-        - name: Download artifact from build job
-          uses: actions/download-artifact@v2
-          with:
-            name: .net-app
-            
-        - name: Run Tests
-          run: dotnet test
         
   deploy:
     runs-on: windows-latest
-    needs: test
+    needs: build
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
