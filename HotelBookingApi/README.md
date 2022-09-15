@@ -24,7 +24,7 @@ The `Controllers` folder is the service layer and manages the CRUD operations. T
 The API uses EF Core to interact with the database.
 
 ## Deployment using a CI/CD pipeline to the cloud
-The project was deployed using a CI/CD pipeline to Azure using GitHub actions.
+The project was deployed using a CI/CD pipeline to Azure Cloud using GitHub actions.
 
 ## Comprehensive unit testing
 NUnit, NSubstitute and Fluent Assertions are used to test the CRUD operations. It tests:
