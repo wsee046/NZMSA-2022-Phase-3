@@ -28,8 +28,6 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
         
-      - name: Run Tests
-        run: dotnet test
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
@@ -40,9 +38,20 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-  deploy:
+  test:
     runs-on: windows-latest
     needs: build
+    defaults:
+      run:
+        working-directory: "./HotelBookingApi"
+      
+    steps:
+        - name: Run Tests
+          run: dotnet test
+        
+  deploy:
+    runs-on: windows-latest
+    needs: test
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
